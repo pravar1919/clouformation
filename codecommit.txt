@@ -1,0 +1,9 @@
+# codecommit aws
+- Create iamuser && login with that
+- start Ec2 instance
+- Generate key-gen in ec2 instance and copy the public rsa to the iam user security credentials
+- Now create a config file in local .ssh in ec2 with the following:
+	Host git-codecommit.*.amazonaws.com
+	User Your-IAM-SSH-Key-ID-Here
+	IdentityFile ~/.ssh/Your-Private-Key-File-Name-Here
+- Run ssh git-codecommit.YOUR ZONE.amazonaws.com

@@ -1,0 +1,17 @@
+# Code Build
+- Create s3 bucket.
+- Create Codebuild - create build prject
+	- project name
+	- description
+	- build badge - maintain public repo, expose build process
+	- tags
+	- source-
+		provider- bitbucket, github, aws s3, aws codecommit, 
+	-environment (MOst impo)
+		managed or custom image (OS)
+	- buildspec - buildspec file 
+	- Artifacts
+
+- Go to build project and start build - (manual build)
+
+
